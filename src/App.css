@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%; 
+  font-family: 'Barlow', sans-serif;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #f6f2ef; 
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f6f2ef;
+}
+
+section.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.cocktails-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+article.cocktail {
+  position: relative;
+  background-color: #b9a888;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+img {
+ height: 300px;
+ width: 300px;
+}
+
+.cocktail-footer {
+  color: #423830;
+  padding: 0 0 10px 15px;
+}
+
+a {
+  color: #423830;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b89c68;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
