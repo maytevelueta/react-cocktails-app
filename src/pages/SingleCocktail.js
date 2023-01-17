@@ -61,8 +61,8 @@ const SingleCocktail = () => {
   } = cocktail;
   return (
     <section className="section cocktail-section">
-      <Link to="/" className="btn btn-primary">
-        back home
+      <Link to="/" className="btn btn-primary" style={{ fontWeight: 700 }}>
+        Back Home
       </Link>
       <h2 className="section-title">{name}</h2>
       <div className="drink">
