@@ -38,6 +38,12 @@ section.section {
   flex-wrap: wrap;
 }
 
+.section-title{
+  align-items: center;
+  justify-content: center;
+  padding: 0 900px 0 900px;
+}
+
 div.cocktails-center {
   display: flex;
   justify-content: center;
