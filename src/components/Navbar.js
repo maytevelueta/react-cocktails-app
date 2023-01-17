@@ -3,21 +3,17 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="nav-center">
+    <div className="navbar">
+     <nav className="navbar-center">
         <Link to="/">
           <h1>Search a Drink!</h1>
         </Link>
-        <ul className="nav-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
+        <div className="nav-links">
+            <Link to="/" style={{ marginRight: "20px" }}>Home</Link>
             <Link to="/about">About</Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        </div>
+     </nav>
+    </div>
   );
 };
 

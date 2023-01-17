@@ -5,7 +5,7 @@ import { useGlobalContext } from "../context";
 const CocktailList = () => {
   const {cocktails} = useGlobalContext ();
   return (
-    <section className="section">
+    <section className="cocktail-detail">
       <h2 className="section-title">Cocktails</h2>
       <div className="cocktails-center">
         {cocktails.map((item) => {

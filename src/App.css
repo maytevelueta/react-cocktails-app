@@ -11,18 +11,18 @@ body {
   font-family: 'Barlow', sans-serif;
 }
 
-nav.navbar {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  background-color: #f6f2ef; 
-}
-
-.nav-links {
+.navbar .navbar-center {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
+  margin: auto;
+  background-color: #f6f2ef; 
+  padding: 0 70px;
+}
+
+.nav-links {
+  font-weight: 600;
+  margin-left: 30px;
 }
 
 main {
@@ -72,4 +72,16 @@ a:hover {
   background-color: whitesmoke;
   border-radius: 5px;
 }
+
+.form-control input {
+  border-radius: 16px;
+  border: none;
+  height: 30px;
+  width: auto;
+}
+
+.about-section {
+  margin: 0 70px;
+}
+
 

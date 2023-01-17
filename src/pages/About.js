@@ -2,15 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="section about-section">
+    <section className="about-section">
+      <div>
       <h1 className="section-title">About us</h1>
-      <p>
-        Heyy, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus dolorem
-        quae odit soluta pariatur. Perferendis mollitia tempore laboriosam
-        pariatur velit quam, iste ducimus debitis a dicta, sed ea reprehenderit
-        rerum numquam ipsam. Modi reprehenderit saepe exercitationem accusamus
-        consequuntur, dolorem ab!
-      </p>
+      <h4>
+        Heyy, just search for your favorite drink and make sure to have fun while preparing it! ;D 
+      </h4>
+      </div>
     </section>
   );
 };
